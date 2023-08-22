@@ -28,7 +28,7 @@ const renderAllPets = (pets) => {
       thePetContainer.append(petElement);
     });
   } catch (error) {
-    console.error('Cannot get your pets!', error);
+    console.error('Cannot get your pets!!', error);
   }
 };
 

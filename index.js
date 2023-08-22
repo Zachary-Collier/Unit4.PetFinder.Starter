@@ -62,5 +62,5 @@ app.listen(PORT, () => {
   console.log("Server is listening on port " + PORT);
 });
 
-// this code indicates thta I can use the data in another file that has a variable called app.
+// this code indicates that I can use the data in another file that has a variable called app.
 module.exports = app;

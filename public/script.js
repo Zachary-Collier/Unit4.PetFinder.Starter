@@ -6,7 +6,7 @@ const fetchAllPets = async () => {
     const pets = await res.json();
     return pets;
   } catch (error) {
-    console.error('Unable to retrieve pets because of this: ', error);
+    console.error('Your pets cannot be retrieved based on this reasoning: ', error);
   }
 };
 
@@ -28,7 +28,7 @@ const renderAllPets = (pets) => {
       thePetContainer.append(petElement);
     });
   } catch (error) {
-    console.error('Unable to get pets!', error);
+    console.error('Cannot get your pets!', error);
   }
 };
 
